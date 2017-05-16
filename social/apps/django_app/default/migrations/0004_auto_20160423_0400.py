@@ -16,6 +16,6 @@ class Migration(migrations.Migration):
         migrations.AlterField(
             model_name='usersocialauth',
             name='extra_data',
-            field=social.apps.django_app.default.fields.JSONField(default={}),
+            field=social.apps.django_app.default.fields.JSONField(default=dict),
         ),
     ]
